@@ -54,16 +54,19 @@ nav img{
   color: white;
 }
 
-.bi-list{
+
+.hamburger-div{
   font-size: 2rem;
   display: none;
+  cursor: pointer;
 }
+
 
 .list-items{
   flex: 1;
 }
 
-ul{
+.unordered-list{
   display: flex;
   justify-content: space-between;
 }
@@ -273,18 +276,34 @@ footer{
   }
   
   .hamburger-div{
-    flex: 1;
-    color: white;
+    display: block;
   }
   
-  .bi-list{
-    font-size: 2rem;
-    display: block;
-  } 
 
-  .list-items{
-    display: none;
+  .hamburger-div.active{
+    opacity: 0;
   }
+  
+
+  .unordered-list{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    /* background-color: black; */
+    width: 100%;
+    transition: 0.3s;
+    flex-direction: column;
+  }
+
+  .unordered-list.active{
+    left: 50%;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
 
   .hero-text h1{
     color: white;
