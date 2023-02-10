@@ -64,6 +64,7 @@ nav img{
 
 .list-items{
   flex: 1;
+  
 }
 
 .unordered-list{
@@ -227,7 +228,6 @@ footer{
   }
   
   .projects-links{
-    /* max-width: 1200px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 25px;
@@ -266,6 +266,10 @@ footer{
 
 @media(max-width:600px){
 
+  .hero-section{
+    padding-top: 150px;
+  }
+
   nav{
     display: flex;
     align-items: center;
@@ -288,9 +292,10 @@ footer{
   .unordered-list{
     position: fixed;
     left: -100%;
+    right: 0;
     top: 70px;
     gap: 0;
-    /* background-color: black; */
+    background-color: red;
     width: 100%;
     transition: 0.3s;
     flex-direction: column;
