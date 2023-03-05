@@ -60,7 +60,8 @@ body{
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
-  padding: 50px 5%;
+  padding: 0 5%;
+  padding-bottom: 50px;
   background: black;
 }
 
@@ -284,11 +285,6 @@ footer{
     left: 50%;
   }
   
-
-
-  .hero-section{
-    padding-top: 150px;
-  }
 
 
   .hero-text h1{
