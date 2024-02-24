@@ -138,7 +138,7 @@ body{
 .projects-header a{
   background: red;
   height: 40px;
-  width: 100px;
+  /* width: 100px; */
   padding: 10px 20px;
   border-radius: .5rem;
   display: inline-block;
